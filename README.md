@@ -34,3 +34,7 @@ Streamlit
 Altair & Plotly (visualizations)
 
 Pandas / NumPy / Scikit-learn (data science)
+
+
+<img width="1316" height="689" alt="image" src="https://github.com/user-attachments/assets/8a3de220-dadd-4da3-8a70-a2f670e4a9e2" />
+
