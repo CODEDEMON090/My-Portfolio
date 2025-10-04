@@ -93,7 +93,7 @@ if page == "Home":
     with col2:
         st.markdown("<div class='card' style='text-align:center'>", unsafe_allow_html=True)
         if PROFILE_PIC:
-            st.image(PROFILE_PIC, width=220, caption=NAME, use_column_width=True)
+            st.image(PROFILE_PIC, width=220, caption=NAME, use_container_width=True)
         else:
             st.markdown(f"<h3 style='color:#e6eef8'>{NAME}</h3>", unsafe_allow_html=True)
             st.markdown(f"<p class='muted'>{TITLE}</p>", unsafe_allow_html=True)
