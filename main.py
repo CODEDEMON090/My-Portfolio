@@ -74,7 +74,16 @@ if page == "Home":
         # CTA buttons
         c1, c2, c3 = st.columns([1,1,1])
         with c1:
-            st.download_button("Download Resume (PDF)", data=b"", file_name="My_resume.pdf", mime="application/pdf")
+            with open("My_resume.pdf", "rb") as pdf_file:
+                PDFbyte = pdf_file.read()
+
+            st.download_button(
+                label="📄 Download Resume (PDF)",
+                data=PDFbyte,
+                file_name="Mohd_Azam_Resume.pdf",
+                mime="application/pdf"
+                )
+
         with c2:
             st.button("View Projects")
         with c3:
